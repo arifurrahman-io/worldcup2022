@@ -212,7 +212,11 @@ footer a {
 
 @media only screen and (max-width: 768px) {
     .blogging {
-        margin: 0%;
+        margin: 0px;
+    }
+
+    .blog-section {
+        width: 90%;
     }
 
     .container {
@@ -247,7 +251,7 @@ footer a {
     .blogs {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        width: 90%;
+        width: 100%;
     }
 
     .footer-menu {
@@ -261,11 +265,19 @@ footer a {
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 
+    .container {
+        width: 90%;
+    }
+
+    .blogging {
+        margin: 0px;
+    }
 
     .blog-section {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 90%;
     }
 
     .menu {
@@ -282,6 +294,6 @@ footer a {
     .blogs {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        width: 90%;
+        width: 100%;
     }
 }
