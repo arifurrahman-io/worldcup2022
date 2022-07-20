@@ -254,18 +254,9 @@ h4 {
 }
 
 @media only screen and (min-width: 678px) and (max-width: 959px) {
+
     .container {
-        display: flex;
-        flex-direction: column;
         width: 90%;
-    }
-
-    .hero-text {
-        text-align: center;
-    }
-
-    .hero-image img {
-        width: 100%;
     }
 
 
