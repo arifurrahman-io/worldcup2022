@@ -18,7 +18,6 @@ main {
 .hero-section {
     display: flex;
     justify-content: center;
-
 }
 
 .container {
@@ -114,8 +113,8 @@ main {
 /* blog design */
 
 .blogging {
-    margin: 30px 0px;
-    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
 }
@@ -123,6 +122,7 @@ main {
 .blog-section {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 80%;
 }
 
@@ -162,17 +162,18 @@ footer a {
 /* upcomming match page style  */
 
 .matches {
-    width: 85%;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
 .match {
+    margin: 10px 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     display: flex;
     flex-direction: column;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
-    padding: 30px 10px;
-    margin: 5px 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 h2,
@@ -181,18 +182,15 @@ h4 {
     margin: 5px 0px;
 }
 
-.head-text {
-    width: 100%;
-}
-
 .flags {
-    display: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
 .flags img {
-    width: 120px;
-    height: 75px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
