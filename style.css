@@ -210,7 +210,11 @@ footer a {
     font-size: 20px;
 }
 
-@media only screen and (max-width: 677px) {
+@media only screen and (max-width: 768px) {
+    .blogging {
+        margin: 0%;
+    }
+
     .container {
         display: flex;
         flex-direction: column;
@@ -228,13 +232,12 @@ footer a {
     .blog-section {
         display: flex;
         flex-direction: column;
-
+        align-items: center;
     }
 
     .menu {
         width: 90%;
         background-color: white;
-
     }
 
     .menu a {
@@ -252,5 +255,33 @@ footer a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+
+    .blog-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        background-color: white;
+    }
+
+    .menu a {
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
     }
 }
