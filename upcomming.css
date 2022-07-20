@@ -77,24 +77,33 @@ main {
 
 
 .menu {
-    background-color: blueviolet;
-    height: 150px;
+    background-color: #58D68D;
+    height: 200px;
     width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .menu a {
     text-decoration: none;
-    margin: 2px 5px;
+    margin: 5px 5px;
     border-radius: 5px;
     padding: 5px 10px;
     width: 60%;
     text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.menu a:hover {
+    color: white;
+    background-color: #58D68D;
+    border: 1px solid white;
+    transition: background-color 1s;
 }
 
 
@@ -114,17 +123,15 @@ main {
 /* blog design */
 
 .blogging {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px 0px;
+    width: 100%;
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 .blog-section {
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 80%;
 }
 
@@ -170,6 +177,7 @@ footer a {
 }
 
 .match {
+    height: 250px;
     margin: 10px 10px 10px 10px;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     display: flex;
@@ -193,6 +201,8 @@ h4 {
 
 .flags img {
     width: 40%;
+    height: 80%;
+    margin: 5px;
 }
 
 /* responsiveness */
@@ -220,12 +230,11 @@ h4 {
     }
 
     .menu {
-        width: 50%;
+        width: 90%;
         background-color: white;
     }
 
     .menu a {
-        width: 100%;
         box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     }
 
@@ -259,6 +268,7 @@ h4 {
         width: 100%;
     }
 
+
     .blog-section {
         display: flex;
         flex-direction: column;
@@ -267,6 +277,7 @@ h4 {
 
     .menu {
         display: flex;
+        justify-content: center;
         flex-direction: row;
         width: 90%;
         background-color: white;
@@ -279,7 +290,7 @@ h4 {
 
     .matches {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         width: 100%;
     }
 }

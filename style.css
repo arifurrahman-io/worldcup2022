@@ -78,8 +78,8 @@ main {
 
 
 .menu {
-    background-color: blueviolet;
-    height: 150px;
+    background-color: #58D68D;
+    height: 200px;
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -91,11 +91,20 @@ main {
 
 .menu a {
     text-decoration: none;
-    margin: 2px 5px;
+    margin: 5px 5px;
     border-radius: 5px;
     padding: 5px 10px;
     width: 60%;
     text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.menu a:hover {
+    color: white;
+    background-color: #58D68D;
+    border: 1px solid white;
+    transition: background-color 1s;
 }
 
 .menu-upcomming,
@@ -137,6 +146,7 @@ main {
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
     margin: 5px 10px;
+    border-radius: 10px;
 }
 
 .blog h3 {
@@ -326,6 +336,7 @@ footer a {
         text-align: center;
         margin-top: 20px;
         margin-bottom: 20px;
+
     }
 
     .view-all-button a {
