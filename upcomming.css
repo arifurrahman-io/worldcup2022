@@ -97,13 +97,13 @@ main {
     text-align: center;
 }
 
-.menu-upcomming,
+.menu-blog,
 .menu-group {
     background-color: white;
     color: black;
 }
 
-.menu-blog {
+.menu-upcomming {
     background-color: red;
     color: white;
 }
@@ -208,4 +208,37 @@ footer a {
     margin: 10px;
     color: white;
     font-size: 20px;
+}
+
+/* upcomming match page style  */
+
+.matches {
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.match {
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    padding: 30px 10px;
+    margin: 5px 10px;
+}
+
+h2,
+h4 {
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.flags {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flags img {
+    width: 120px;
+    height: 75px;
 }
