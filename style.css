@@ -19,7 +19,6 @@ main {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-
 }
 
 .container {
@@ -74,8 +73,6 @@ main {
 /* blog section desigining */
 
 /* menu design */
-
-
 
 .menu {
     background-color: #58D68D;
@@ -226,6 +223,7 @@ footer a {
 }
 
 /* responsiveness */
+/* For Smartphone/Small Device */
 
 @media only screen and (max-width: 677px) {
     .blogging {
@@ -284,6 +282,8 @@ footer a {
     }
 
 }
+
+/* For TAB/Medium Device */
 
 @media only screen and (min-width: 678px) and (max-width: 959px) {
 
